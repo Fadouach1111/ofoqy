@@ -21,8 +21,8 @@ export default defineConfig({
         },
     },
     build: {
-        outDir: 'public/build', // <-- Add this line
-        emptyOutDir: false,
-        manifest: true
-    } 
+    outDir: '../../public/build', // relative to resources/js
+    emptyOutDir: false,
+    manifest: true,
+  }
 });
